@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(240, 201, 26);
+}
+
+.navbar{
+    display: none;
+    z-index: 10000;
+}
+
+.album{
+    background: rgb(244, 217, 99);
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.form-container {
+    background-color: #baf5fd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+    margin-bottom: 15px;
+}
+
+.form-container button {
+    background-color: #007bff;
+}
+
+.form-container button:hover {
+    background-color: #012d5b;
+}
+
+
+/* Style for pre-loader */
+#preloader {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s ease-in-out; /* Add a transition effect */
+}
+#preloader video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#content {
+    display: none; /* Hide content initially */
+    transition: opacity 1s ease-in-out; /* Add a transition effect */
+    opacity: 0;
+}
