@@ -6,8 +6,12 @@ body {
 }
 
 h1{
-    margin-left: 45%;
+    text-align: center;
+    display: flex;
+    /* margin-left: 30%; */
     margin-top: 20px;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
 }
 
 .chapters{
@@ -52,7 +56,11 @@ h1{
 /* RESPONSIVENESS */
 @media screen and (max-width: 768px){
     h1{
-        margin-left: 33%;
+        text-align: center;
+        display: flex;
+        margin-top: 20px;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center; /* Vertically center the content */
     }
 
     .chapters h2{
