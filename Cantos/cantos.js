@@ -17,3 +17,18 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+
+// Sound button
+function readContent() {
+  var text = document.getElementById('content').textContent;
+  var sentences = text.split('.'); // Split text into sentences
+
+  // Iterate over each sentence and speak it
+  sentences.forEach(function(sentence) {
+      var utterance = new SpeechSynthesisUtterance(sentence.trim());
+      window.speechSynthesis.speak(utterance);
+  });
+}
+
