@@ -12,7 +12,21 @@
             }
 
             h1{
-                margin-left: 45%;
+                text-align: center;
+                display: flex;
+                margin-top: 20px;
+                justify-content: center; /* Horizontally center the content */
+                align-items: center; /* Vertically center the content */
+                margin-bottom: 20px;
+            } 
+            
+            .list{
+                background-color: rgb(192, 180, 74);
+                border-radius: 20px;
+                padding: 20px 20px 20px 20px;
+                justify-content: center;
+                align-content: center;
+                margin: 25px 20px 10px 20px;
             }
             
             .pagination{
@@ -60,12 +74,14 @@
         <h1><b><u>CANTOS</u></b></h1>
 
         <!-- List Group (Flush) -->
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item list-group-item-warning"><a href="/Cantos/canto-1.html"><b>Canto-1(CREATION: Ch 1-19)</b></a></li>
-            <li class="list-group-item list-group-item-warning"><a href="/Cantos/canto-2.html"><b>Canto-2(THE COSMIC MANIFESTATION: Ch 1-10)</b></a></li>
-            <li class="list-group-item list-group-item-warning"><a href=""><b>Canto-3(THE STATUS QUO: Ch 1-33)</b></a></li>
-            <li class="list-group-item list-group-item-warning"><a href=""><b>Canto-4</b></a></li>
-        </ul>
+        <div class="list">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-warning"><a href="/Cantos/canto-1.html"><b>Canto-1(CREATION: Ch 1-19)</b></a></li>
+                <li class="list-group-item list-group-item-warning"><a href="/Cantos/canto-2.html"><b>Canto-2(THE COSMIC MANIFESTATION: Ch 1-10)</b></a></li>
+                <li class="list-group-item list-group-item-warning"><a href=""><b>Canto-3(THE STATUS QUO: Ch 1-33)</b></a></li>
+                <li class="list-group-item list-group-item-warning"><a href=""><b>Canto-4</b></a></li>
+            </ul>
+        </div>
 
         <!-- Pagination -->
         <nav aria-label="Page navigation example">
