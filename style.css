@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap');
+
 body {
     background-color: rgb(240, 201, 26);
 }
@@ -23,28 +25,6 @@ body {
     background: rgb(244, 217, 99);
     border-radius: 15px;
     margin-top: 25px;
-}
-
-.form-container {
-    background-color: #baf5fd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-top: 50px;
-}
-
-.form-container input,
-.form-container textarea,
-.form-container button {
-    margin-bottom: 15px;
-}
-
-.form-container button {
-    background-color: #007bff;
-}
-
-.form-container button:hover {
-    background-color: #012d5b;
 }
 
 
