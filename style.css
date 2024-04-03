@@ -7,6 +7,18 @@ body {
     z-index: 10000;
 }
 
+.navbar-brand{
+    background-color: rgb(214, 196, 0);
+    border-radius: 30px;
+    color: black;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.carousel-item img{
+    max-height: 500px;
+}
+
 .album{
     background: rgb(244, 217, 99);
     border-radius: 15px;
@@ -59,4 +71,18 @@ body {
     display: none; /* Hide content initially */
     transition: opacity 1s ease-in-out; /* Add a transition effect */
     opacity: 0;
+}
+
+
+
+/*RESPONSIVE */
+@media screen and (max-width: 768px){
+    .navbar-brand{
+        padding: 7px;
+        font-size: 15px;
+    }
+
+    .carousel-item img{
+        max-height: 400px;
+    }
 }

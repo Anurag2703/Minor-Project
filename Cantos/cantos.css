@@ -34,8 +34,13 @@ h3 {
     margin-right: 10px; /* Add some space between the <h3> and the <i> */
 }
 
-.fa-sharp {
-    font-size: 24px; /* Adjust the font size to make the icon larger */
+button{
+    border-radius: 15px;
+}
+
+i {
+    font-size: 15px; /* Adjust the font size to make the icon larger */
+    font-style: normal;
 }
 
 
@@ -65,17 +70,33 @@ h3 {
 
 /* RESPONSIVENESS */
 @media screen and (max-width: 768px){
+    .navbar-brand{
+        padding: 7px;
+        font-size: 15px;
+    }
+
     h1{
         text-align: center;
         display: flex;
         margin-top: 20px;
         justify-content: center; /* Horizontally center the content */
         align-items: center; /* Vertically center the content */
+        font-size: 20px;
     }
 
     .chapters h2{
-        margin-left: 19.5vw;
+        margin-left: 9.7vw;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    button{
+        padding: 1.8px 4px 4px 4px;
+        margin-top: 4px;
+        border-radius: 15px;
+    }
+
+    i {
+        font-size: 11px; /* Adjust the font size to make the icon larger */
     }
 }
