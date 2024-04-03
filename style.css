@@ -80,6 +80,7 @@ body {
     .navbar-brand{
         padding: 7px;
         font-size: 15px;
+        font-weight: 600;
     }
 
     .carousel-item img{

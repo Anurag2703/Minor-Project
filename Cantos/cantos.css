@@ -73,6 +73,7 @@ i {
     .navbar-brand{
         padding: 7px;
         font-size: 15px;
+        font-weight: 800;
     }
 
     h1{
