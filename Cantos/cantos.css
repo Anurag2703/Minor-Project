@@ -38,6 +38,10 @@ button{
     border-radius: 15px;
 }
 
+button:hover{
+    background-color: rgb(133, 248, 71);
+}
+
 i {
     font-size: 15px; /* Adjust the font size to make the icon larger */
     font-style: normal;
