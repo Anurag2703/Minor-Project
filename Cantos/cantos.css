@@ -24,7 +24,7 @@ h1{
 }
 
 .chapters h2{
-    margin-left: 38vw;
+    margin-left: 39vw;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -90,9 +90,7 @@ i {
     }
 
     .chapters h2{
-        margin-left: 9.7vw;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin: 20px 0 20px 26%;
     }
 
     button{
