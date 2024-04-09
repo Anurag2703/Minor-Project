@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(240, 201, 26);
+}
+
+.container-marketing{
+    background-color: rgb(255, 231, 122);
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+    justify-content: center;
+    align-content: center;
+    margin: 25px 20px 10px 20px;
+}
+
+.container-marketing img{
+    max-height: 40vh;
+    max-width: 450px;
+    min-width: 100px;
+    border-radius: 10px;
+}
+
+
+/* RESPONSIVENESS */
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    .container-marketing img{
+        /* max-height: 40vh; */
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container-marketing img{
+        /* max-height: 40vh; */
+        max-width: 278px;
+        margin-bottom: 20px;
+    }
+}

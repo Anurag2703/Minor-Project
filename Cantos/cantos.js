@@ -71,4 +71,3 @@ function stopReading() {
         currentUtterance = null;
     }
 }
-
