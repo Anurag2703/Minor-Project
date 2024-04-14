@@ -1,0 +1,21 @@
+TECHNOLGY & LANGUAGES USED:
+1. HTML
+2. CSS
+3. BootStrap (CSS Framework)
+4. Javascript
+
+
+FONT & BACKGROUND COLORS:
+1. rgb(240, 201, 26) [DARK YELLOW]
+2. rgb(214, 196, 0) [MEDIUM YELLOW]
+3. rgb(255, 231, 122) [LIGHT YELLOW]
+4. black
+5. #fff [WHITE shade]
+6. #8ff2f9 [LIGHT BLUE] 
+7. rgb(133, 248, 71) [LIGHT GREEN]
+8. #555 [DARK GREY]
+
+
+FONTS:
+1. 'Poppins', sans-serif
+2. Regular

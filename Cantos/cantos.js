@@ -20,8 +20,7 @@ function topFunction() {
 
 
 
-// Sound button
-// Function to read content
+// SPEECH SYNTHESIS API
 // Global variable to store the current utterance
 var currentUtterance = null;
 

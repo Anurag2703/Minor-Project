@@ -1,0 +1,26 @@
+ANURAG PANDA:
+1. Integration of all HTML, CSS & Javascripts files
+2. Make all the pages Responsive to all screen-types and devices
+3. Integrate datasets in the website
+4. Create a github repository and push the project there 
+5. Deploy website in a free domain
+
+ANKIT HATI:
+1. Design and implement Landing Page
+2. Collect all required images and required datasets from the internet
+3. Design and export the Pre-Loader
+
+SWETA BISWAL:
+1. Design the Cantos layout
+2. Implement it through HTML & CSS
+3. Implement the Top-to-Go button with required Javascript logic
+
+AYUSHMAN PATTNAIK:
+1. Design the Contact Page
+2. Implement it through HTML and CSS(Glassmorphism style)
+3. Write the backend for the Contact Page
+
+HRIDESH BEHERA:
+1. Design the About Us page.
+2. Implement it through HTML & CSS.
+3. Make the About page Responsive to all screen-types and devices
