@@ -34,3 +34,16 @@ body{
         margin-bottom: 20px;
     }
 }
+
+#robot-icon {
+    position: fixed;
+    bottom: 10px; /* Adjust distance from the bottom */
+    right: 10px; /* Adjust distance from the right */
+    font-size: 30px; /* Adjust icon size */
+    color: #000; /* Change the color */
+    cursor: pointer; /* Optional: Add pointer for hover effect */
+    background-color: rgb(228, 218, 135);
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #000;
+}
